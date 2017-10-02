@@ -1,0 +1,30 @@
+Human Activity Recognition using Machine Learning
+
+Pre-requisites:
+    Python 3.5
+    sklearn
+    matplotlib
+    numpy
+    itertools
+    time
+
+Data:
+    Folder F1(with files):
+        Project.py
+        X_train.txt,y_train.txt
+        X_test.txt,y_test.txt
+        activity_labels.txt
+
+Running the Code:
+    1. Open the Terminal(on mac) or command prompt(Windows)
+    2. Change directory to F1 folder using command cd
+    3. Type "python Project.py"
+
+Results:
+    It runs 3 different classification Algorithms (Decision Tree, Multi Layer Perceptron Classifier, Logistic Regression)
+    on the test data and find following metrics:
+        1. Mean Squared Error
+        2. Accuracy
+        3. Confusion Matrix
+
+
